@@ -1,0 +1,19 @@
+{
+  "name": "@lexado/just-another-js-helper",
+  "version": "1.0.0",
+  "description": "This package incluedes some functions for typescript and javascript that might be useful to have in a single package",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "manual-test": "ts-node test/manualTest.ts"
+  },
+  "types": "dist/index.d.ts",
+  "files": ["dist"],
+  "keywords": ["helper", "utilities", "JavaScript"],
+  "author": "Steve Fox",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
